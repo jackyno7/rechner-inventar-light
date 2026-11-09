@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html><html lang='de'><head><meta charset='utf-8'><title>Rechner-Inventar Light lab.test</title><style>body{font-family:Segoe UI,Arial,sans-serif;color:#2b2f36;margin:0;background:#f4f6fa}
+.seite{max-width:1100px;margin:0 auto;padding:28px 24px 60px}
+h1{color:#1f5fae;margin:0 0 4px;font-size:28px} h2{color:#1f5fae;font-size:19px;margin:34px 0 10px;border-bottom:2px solid #d0d5dd;padding-bottom:6px}
+.meta{color:#6b7280;font-size:13px;margin-bottom:22px}
+.kacheln{display:flex;gap:14px;flex-wrap:wrap;margin:18px 0}
+.kachel{flex:1;min-width:150px;background:#fff;border-radius:10px;padding:14px 18px;border-left:8px solid #999;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.kachel b{display:block;font-size:30px} .kachel span{font-size:13px;color:#6b7280}
+table{border-collapse:collapse;width:100%;background:#fff;font-size:13px;margin:8px 0 4px}
+th{background:#1f5fae;color:#fff;text-align:left;padding:7px 9px;font-weight:600} td{padding:6px 9px;border-bottom:1px solid #e5e7eb;vertical-align:top;overflow-wrap:break-word}
+tr:nth-child(even) td{background:#f9fafb}
+.marke{display:inline-block;min-width:58px;text-align:center;padding:2px 9px;border-radius:11px;color:#fff;font-size:12px;font-weight:600}
+.m-Hoch{background:#d92d20}.m-Mittel{background:#f79009}.m-Niedrig{background:#ca8a04}.m-OK{background:#12b76a}.m-Info{background:#1f5fae}
+.befund{background:#fff;border-radius:10px;padding:16px 20px;margin:14px 0;border-left:8px solid #999;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.befund h3{margin:0 0 6px;font-size:16px} .befund p{margin:5px 0;font-size:14px;line-height:1.45} .befund .emp{color:#14532d}
+.Hoch{border-color:#d92d20}.Mittel{border-color:#f79009}.Niedrig{border-color:#eab308}.OK{border-color:#12b76a}.Info{border-color:#1f5fae}
+.klein{color:#6b7280;font-size:12px} a{color:#1f5fae;text-decoration:none}
+pre{background:#fff;border:1px solid #d0d5dd;border-radius:8px;padding:12px 14px;font-size:12px;white-space:pre-wrap;word-break:break-word}
+.fuss{margin-top:40px;color:#6b7280;font-size:12px;border-top:1px solid #d0d5dd;padding-top:12px}
+@media print{body{background:#fff}.befund,.kachel{box-shadow:none;border:1px solid #d0d5dd;border-left-width:8px;break-inside:avoid}}</style></head><body><div class='seite'><h1>Rechner-Inventar Light</h1><div class='meta'>Dom&#228;ne <b>lab.test</b> · erstellt am 09.11.2026 19:35 von LAB\Administrator auf LABDC01</div><div class='kacheln'><div class='kachel Hoch'><b>1</b><span>Befunde mit hoher Priorität</span></div><div class='kachel Mittel'><b>0</b><span>mit mittlerer Priorität</span></div><div class='kachel Niedrig'><b>1</b><span>mit niedriger Priorität</span></div><div class='kachel Info'><b>0</b><span>Hinweise und nicht geprüft</span></div><div class='kachel OK'><b>1</b><span>Prüfpunkte ohne Befund</span></div></div><h2>Umgebung</h2><table><tr><th>Eigenschaft</th><th>Wert</th></tr><tr><td>Dom&#228;ne (NetBIOS)</td><td>lab.test (LAB)</td></tr><tr><td>Ausgewerteter Bereich</td><td>gesamte Dom&#228;ne</td></tr><tr><td>Computerkonten (aktiv / gesamt)</td><td>16 / 16</td></tr><tr><td>Arbeitspl&#228;tze / Server / Dom&#228;nencontroller / Sonstige</td><td>6 / 3 / 2 / 5</td></tr><tr><td>LAPS im Schema</td><td>nein</td></tr><tr><td>Schwellen dieses Berichts</td><td>inaktiv ab 90 Tagen, Vorwarnung Support-Ende 180 Tage, Support-Daten Stand 10.2026</td></tr></table><h2>Übersicht der Prüfpunkte</h2><table><tr><th>Nr.</th><th>Bereich</th><th>Prüfpunkt</th><th>Treffer</th><th>Bewertung</th></tr><tr><td>B1</td><td>Betriebssystem</td><td><a href='#B1'>Betriebssystem wird nicht mehr unterst&#252;tzt</a></td><td>3</td><td><span class='marke m-Hoch'>Hoch</span></td></tr><tr><td>K1</td><td>Computerkonten</td><td><a href='#K1'>Aktive Computerkonten ohne Anmeldung seit &#252;ber 90 Tagen</a></td><td>0</td><td><span class='marke m-OK'>OK</span></td></tr><tr><td>K3</td><td>Computerkonten</td><td><a href='#K3'>Computer im Standardcontainer &quot;Computers&quot;</a></td><td>14</td><td><span class='marke m-Niedrig'>Niedrig</span></td></tr></table><h2>Betriebssysteme im &#220;berblick</h2><table>
+<colgroup><col/><col/><col/><col/><col/></colgroup>
+<tr><th>Betriebssystem</th><th>Anzahl</th><th>davon aktiv</th><th>davon inaktiv</th><th>Support-Ende (spätestes)</th></tr>
+<tr><td>(kein Betriebssystem eingetragen)</td><td>5</td><td>5</td><td>0</td><td>unbekannt</td></tr>
+<tr><td>Windows Server 2025</td><td>4</td><td>4</td><td>0</td><td>14.11.2034</td></tr>
+<tr><td>Windows 11 24H2</td><td>2</td><td>2</td><td>0</td><td>12.10.2027</td></tr>
+<tr><td>Windows 11 LTSC 2024</td><td>1</td><td>1</td><td>0</td><td>09.10.2029</td></tr>
+<tr><td>Windows Server 2012 / 2012 R2</td><td>1</td><td>1</td><td>0</td><td>10.10.2023</td></tr>
+<tr><td>Windows 11 IoT Enterprise LTSC 2024</td><td>1</td><td>1</td><td>0</td><td>10.10.2034</td></tr>
+<tr><td>Windows 8.1 und &#228;lter</td><td>1</td><td>1</td><td>0</td><td>10.01.2023</td></tr>
+<tr><td>Windows 10 IoT Enterprise LTSC 2021</td><td>1</td><td>1</td><td>0</td><td>13.01.2032</td></tr>
+</table><h2>Inventar aller Computerkonten</h2><table>
+<colgroup><col/><col/><col/><col/><col/><col/><col/><col/><col/><col/></colgroup>
+<tr><th>Computer</th><th>Typ</th><th>Aktiv</th><th>Betriebssystem</th><th>Version</th><th>Support-Ende</th><th>Letzte Anmeldung</th><th>LAPS</th><th>Ort</th><th>Beschreibung</th></tr>
+<tr><td>LABDC01</td><td>Dom&#228;nencontroller</td><td>Ja</td><td>Windows Server 2025 Standard Evaluation</td><td>Windows Server 2025</td><td>14.11.2034</td><td>07.11.2026</td><td>-</td><td>OU=Domain Controllers</td><td></td></tr>
+<tr><td>LABDC02</td><td>Dom&#228;nencontroller</td><td>Ja</td><td>Windows Server 2025 Standard Evaluation</td><td>Windows Server 2025</td><td>14.11.2034</td><td>07.11.2026</td><td>-</td><td>OU=Domain Controllers</td><td></td></tr>
+<tr><td>LABEX01</td><td>Server</td><td>Ja</td><td>Windows Server 2025 Standard Evaluation</td><td>Windows Server 2025</td><td>14.11.2034</td><td>07.11.2026</td><td>Nein</td><td>CN=Computers</td><td></td></tr>
+<tr><td>LABFS01</td><td>Server</td><td>Ja</td><td>Windows Server 2025 Standard Evaluation</td><td>Windows Server 2025</td><td>14.11.2034</td><td>08.11.2026</td><td>Nein</td><td>CN=Computers</td><td></td></tr>
+<tr><td>NB-GL01</td><td>Unbekannt</td><td>Ja</td><td></td><td></td><td></td><td>nie</td><td>Nein</td><td>CN=Computers</td><td></td></tr>
+<tr><td>PC-ALT-WIN7</td><td>Arbeitsplatz</td><td>Ja</td><td>Windows 7 Professional</td><td>Windows 8.1 und &#228;lter</td><td>10.01.2023</td><td>nie</td><td>Nein</td><td>CN=Computers</td><td>MANGEL: nicht mehr unterstuetztes Betriebssystem</td></tr>
+<tr><td>PC-BUCHH01</td><td>Unbekannt</td><td>Ja</td><td></td><td></td><td></td><td>nie</td><td>Nein</td><td>CN=Computers</td><td></td></tr>
+<tr><td>PC-BUCHH02</td><td>Unbekannt</td><td>Ja</td><td></td><td></td><td></td><td>nie</td><td>Nein</td><td>CN=Computers</td><td></td></tr>
+<tr><td>PC-EMPFANG01</td><td>Unbekannt</td><td>Ja</td><td></td><td></td><td></td><td>nie</td><td>Nein</td><td>CN=Computers</td><td></td></tr>
+<tr><td>PC-VERTRIEB01</td><td>Unbekannt</td><td>Ja</td><td></td><td></td><td></td><td>nie</td><td>Nein</td><td>CN=Computers</td><td></td></tr>
+<tr><td>RITEST01</td><td>Arbeitsplatz</td><td>Ja</td><td>Windows 11 Pro Education</td><td>Windows 11 24H2</td><td>13.10.2026</td><td>nie</td><td>Nein</td><td>CN=Computers</td><td></td></tr>
+<tr><td>RITEST02</td><td>Arbeitsplatz</td><td>Ja</td><td>Windows 10 IoT Enterprise LTSC</td><td>Windows 10 IoT Enterprise LTSC 2021</td><td>13.01.2032</td><td>nie</td><td>Nein</td><td>CN=Computers</td><td></td></tr>
+<tr><td>RITEST03</td><td>Arbeitsplatz</td><td>Ja</td><td>Windows 11 IoT Enterprise LTSC 2024</td><td>Windows 11 IoT Enterprise LTSC 2024</td><td>10.10.2034</td><td>nie</td><td>Nein</td><td>CN=Computers</td><td></td></tr>
+<tr><td>RITEST04</td><td>Arbeitsplatz</td><td>Ja</td><td>Windows 11 Education</td><td>Windows 11 24H2</td><td>12.10.2027</td><td>nie</td><td>Nein</td><td>CN=Computers</td><td></td></tr>
+<tr><td>RITEST05</td><td>Arbeitsplatz</td><td>Ja</td><td>Windows 11 Enterprise LTSC</td><td>Windows 11 LTSC 2024</td><td>09.10.2029</td><td>nie</td><td>Nein</td><td>CN=Computers</td><td></td></tr>
+<tr><td>SRV-DATEI01</td><td>Server</td><td>Ja</td><td>Windows Server 2012 R2 Standard</td><td>Windows Server 2012 / 2012 R2</td><td>10.10.2023</td><td>nie</td><td>Nein</td><td>CN=Computers</td><td>MANGEL: nicht mehr unterstuetztes Betriebssystem</td></tr>
+</table><h2>Befunde</h2><div class='befund Hoch' id='B1'><h3><span class='marke m-Hoch'>Hoch</span> B1 · Betriebssystem wird nicht mehr unterst&#252;tzt <span class='klein'>(3 Treffer)</span></h3><p>F&#252;r diese Systeme liefert Microsoft keine Sicherheitsupdates mehr (ohne kostenpflichtige Verl&#228;ngerung ESU). Bewertet wird, was der Rechner zuletzt selbst im Verzeichnis eingetragen hat; bei Home/Pro gilt das fr&#252;here, bei Enterprise/Education das sp&#228;tere Datum.</p><p class='emp'><b>Empfehlung:</b> Systeme aktualisieren, abl&#246;sen oder vom Netz trennen. Wenn es das Ger&#228;t nicht mehr gibt: Computerkonto l&#246;schen. Bei gebuchter ESU-Verl&#228;ngerung ist der Hinweis gegenstandslos.</p><table>
+<colgroup><col/><col/><col/><col/><col/><col/><col/></colgroup>
+<tr><th>Computer</th><th>Typ</th><th>Betriebssystem</th><th>Version</th><th>Letzte Anmeldung</th><th>Ort</th><th>Support-Ende</th></tr>
+<tr><td>PC-ALT-WIN7</td><td>Arbeitsplatz</td><td>Windows 7 Professional</td><td>Windows 8.1 und &#228;lter</td><td>nie</td><td>CN=Computers</td><td>10.01.2023</td></tr>
+<tr><td>SRV-DATEI01</td><td>Server</td><td>Windows Server 2012 R2 Standard</td><td>Windows Server 2012 / 2012 R2</td><td>nie</td><td>CN=Computers</td><td>10.10.2023</td></tr>
+<tr><td>RITEST01</td><td>Arbeitsplatz</td><td>Windows 11 Pro Education</td><td>Windows 11 24H2</td><td>nie</td><td>CN=Computers</td><td>13.10.2026</td></tr>
+</table></div><div class='befund Niedrig' id='K3'><h3><span class='marke m-Niedrig'>Niedrig</span> K3 · Computer im Standardcontainer &quot;Computers&quot; <span class='klein'>(14 Treffer)</span></h3><p>Neu aufgenommene Rechner landen im Container &quot;Computers&quot;. Mit diesem Container lassen sich keine Gruppenrichtlinien verkn&#252;pfen - die Rechner erhalten nur die Richtlinien der Dom&#228;ne.</p><p class='emp'><b>Empfehlung:</b> Rechner in die passende Organisationseinheit verschieben. Mit &quot;redircmp&quot; l&#228;sst sich der Standardort f&#252;r neue Rechner &#228;ndern.</p><table>
+<colgroup><col/><col/><col/><col/><col/><col/></colgroup>
+<tr><th>Computer</th><th>Typ</th><th>Betriebssystem</th><th>Version</th><th>Letzte Anmeldung</th><th>Ort</th></tr>
+<tr><td>LABEX01</td><td>Server</td><td>Windows Server 2025 Standard Evaluation</td><td>Windows Server 2025</td><td>07.11.2026</td><td>CN=Computers</td></tr>
+<tr><td>LABFS01</td><td>Server</td><td>Windows Server 2025 Standard Evaluation</td><td>Windows Server 2025</td><td>08.11.2026</td><td>CN=Computers</td></tr>
+<tr><td>NB-GL01</td><td>Unbekannt</td><td></td><td></td><td>nie</td><td>CN=Computers</td></tr>
+<tr><td>PC-ALT-WIN7</td><td>Arbeitsplatz</td><td>Windows 7 Professional</td><td>Windows 8.1 und &#228;lter</td><td>nie</td><td>CN=Computers</td></tr>
+<tr><td>PC-BUCHH01</td><td>Unbekannt</td><td></td><td></td><td>nie</td><td>CN=Computers</td></tr>
+<tr><td>PC-BUCHH02</td><td>Unbekannt</td><td></td><td></td><td>nie</td><td>CN=Computers</td></tr>
+<tr><td>PC-EMPFANG01</td><td>Unbekannt</td><td></td><td></td><td>nie</td><td>CN=Computers</td></tr>
+<tr><td>PC-VERTRIEB01</td><td>Unbekannt</td><td></td><td></td><td>nie</td><td>CN=Computers</td></tr>
+<tr><td>RITEST01</td><td>Arbeitsplatz</td><td>Windows 11 Pro Education</td><td>Windows 11 24H2</td><td>nie</td><td>CN=Computers</td></tr>
+<tr><td>RITEST02</td><td>Arbeitsplatz</td><td>Windows 10 IoT Enterprise LTSC</td><td>Windows 10 IoT Enterprise LTSC 2021</td><td>nie</td><td>CN=Computers</td></tr>
+<tr><td>RITEST03</td><td>Arbeitsplatz</td><td>Windows 11 IoT Enterprise LTSC 2024</td><td>Windows 11 IoT Enterprise LTSC 2024</td><td>nie</td><td>CN=Computers</td></tr>
+<tr><td>RITEST04</td><td>Arbeitsplatz</td><td>Windows 11 Education</td><td>Windows 11 24H2</td><td>nie</td><td>CN=Computers</td></tr>
+<tr><td>RITEST05</td><td>Arbeitsplatz</td><td>Windows 11 Enterprise LTSC</td><td>Windows 11 LTSC 2024</td><td>nie</td><td>CN=Computers</td></tr>
+<tr><td>SRV-DATEI01</td><td>Server</td><td>Windows Server 2012 R2 Standard</td><td>Windows Server 2012 / 2012 R2</td><td>nie</td><td>CN=Computers</td></tr>
+</table></div><h2>Ohne Befund</h2><table><tr><th>Nr.</th><th>Prüfpunkt</th></tr><tr id='K1'><td>K1</td><td>Aktive Computerkonten ohne Anmeldung seit &#252;ber 90 Tagen</td></tr></table><div class='fuss'>Rechner-Inventar Light Version 1.0 · IT Admin Tools by MM · Das Skript hat ausschließlich gelesen und nichts verändert. Light-Version mit 3 von 12 Pr&#252;fpunkten der Vollversion (https://mueller86.gumroad.com/l/zzycdd). Grundlage sind die Angaben der Computerkonten im Active Directory; die Rechner selbst wurden nicht abgefragt. Support-Daten ohne Gew&#228;hr (Stand 10.2026). Der Bericht ersetzt keine Sicherheitspr&#252;fung und erhebt keinen Anspruch auf Vollst&#228;ndigkeit. Er enth&#228;lt Rechnernamen - bitte vertraulich behandeln.</div></div></body></html>
