@@ -9,7 +9,7 @@
 
 .DESCRIPTION
     The script operates exclusively in READ-ONLY mode. It does not change anything in Active Directory, does not query the computers themselves,
-    and does not transfer data. It writes exactly one HTML file (and CSV files if requested)
+    and sends no data to third parties or the internet. It writes exactly one HTML file (and CSV files if requested)
     to the specified output folder.
 
     Prerequisites: Windows PowerShell 5.1, the "ActiveDirectory" module, and a domain account with read permissions.
